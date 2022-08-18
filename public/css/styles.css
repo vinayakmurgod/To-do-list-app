@@ -1,0 +1,148 @@
+/* body{
+  margin: 0px 0px 0px 0px;
+} */
+
+
+html {
+  background-color: #E4E9FD;
+  /* background-image: -webkit-linear-gradient(110deg, #F39C12 50%, #F2F4F4 50%); */
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  min-height: 1000px;
+  font-family: sans-serif;
+}
+
+.labals {
+  display: none;
+  justify-content: center;
+  text-align: center;
+}
+
+.list{
+  justify-content: center;
+  text-align: center;
+  display:  block;
+}
+
+a, a:visited, a:hover, a:active {
+  color: #F2F4F4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F39C12
+}
+
+.copyright{
+  color: black;
+  font-size: 10px;
+  margin: 5px;
+  padding: 0px;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+h3{
+  color: #F39C12;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+#heading {
+  background-color:#F39C12;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #F1F1F1;
+  word-wrap: break-word;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #F39C12;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #F39C12;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #F39C12;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .box{
+    max-width: calc(400px + 3vw);
+  }
+  .links{
+    display: none;
+  }
+}
+
+footer {
+  color: black;
+  text-align: center;
+  font-family: monospace;
+}
